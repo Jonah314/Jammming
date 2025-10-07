@@ -5,7 +5,7 @@ import '../Styles/general.css';
 function Header(){
     return (
         <>
-            <div className='header'>
+            <div className='header Skin'>
                 <h1 > JAMMMING </h1>
             </div>
 

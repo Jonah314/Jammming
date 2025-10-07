@@ -1,0 +1,12 @@
+
+:root{
+    --base:#6F00FF;
+    --text:#FFF1F1;
+    --btn:#E9B3FB;
+    --webBackround:#3B0270;
+}
+
+.Skin{
+    background-color: var(--base);
+    color: var(--text);
+}

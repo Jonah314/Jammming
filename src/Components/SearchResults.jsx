@@ -4,7 +4,7 @@ import '../Styles/SearchResults.css';
 function SearchResults(){
     return (
         <>  
-            <div className='SearchResults'>
+            <div className='SearchResults Skin'>
                 <h1> Search Results Area </h1>
             </div>
             
