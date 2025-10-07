@@ -1,0 +1,7 @@
+html, body {
+    margin: 0 0;
+    padding: 0 0;
+    width: 100%; /* Ensures full width coverage */
+    height: 100%; /* Ensures full height coverage, if desired */
+    box-sizing: border-box; /* Helps with consistent sizing calculations */
+}

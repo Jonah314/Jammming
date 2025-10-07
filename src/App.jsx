@@ -1,6 +1,8 @@
-import { useState } from 'react'
-
-import './App.css'
+import { useState } from 'react';
+import Header from './Components/Header.jsx';
+import SearchBar from './Components/SearchBar.jsx';
+import './Styles/App.css';
+import './Styles/general.css';
 
 function App() {
   
@@ -9,15 +11,11 @@ function App() {
     <>
       
       {/* Header Section */}
-      <div>
-        <h1>Header Section </h1>
-      </div>
+      <Header/>
       
       
       {/* Search Bar Area*/}
-      <div>
-        <h1>Search Bar Area</h1>
-      </div>
+      <SearchBar />
       
       
       {/* Results & PlayList Area */}
