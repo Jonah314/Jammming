@@ -4,9 +4,21 @@
     --text:#FFF1F1;
     --btn:#E9B3FB;
     --webBackround:#3B0270;
+    --curve: 35px;
 }
 
 .Skin{
     background-color: var(--base);
     color: var(--text);
+    
+}
+
+.Skin2{
+    background-color: var(--btn);
+    color: var(--text);
+    
+}
+
+.Curve {
+    border-radius: var(--curve);
 }

@@ -5,7 +5,7 @@ import '../Styles/general.css';
 function SearchBar(){
     return (
         <>
-            <div className='SearchBar Skin'>
+            <div className='SearchBar Skin2 Curve'>
                 <form>
                     <div className='grid'>
                         <div></div>

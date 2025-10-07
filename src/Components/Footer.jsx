@@ -5,7 +5,7 @@ import '../Styles/Skin.css';
 function Footer(){
     return(
         <>
-            <div className= "footer Skin">
+            <div className= "footer Skin2">
                 <h1>This is the Footer</h1>
             </div>
             
