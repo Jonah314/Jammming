@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Header from './Components/Header.jsx';
 import SearchBar from './Components/SearchBar.jsx';
+import SearchResult from './Components/SearchResults.jsx';
+import Playlist from './Components/Playlist.jsx';
 import './Styles/App.css';
 import './Styles/general.css';
 
@@ -18,19 +20,15 @@ function App() {
       <SearchBar />
       
       
-      {/* Results & PlayList Area */}
-      <div>
+      {/* Results&PlayList Area */}
+      <div className='ResultsAndPlayList'>
 
           {/* Search Results */}
-          <div>
-            <h1>Search Results Area</h1>
-          </div>
+          <SearchResult />
 
 
           {/* Play List */}
-          <div>
-            <h1>Make a Play List area</h1>
-          </div>
+          <Playlist />
       </div>
 
       

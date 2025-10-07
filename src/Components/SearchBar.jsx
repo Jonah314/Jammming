@@ -5,12 +5,22 @@ import '../Styles/general.css';
 function SearchBar(){
     return (
         <>
-            <div>
+            <div className='SearchBar'>
                 <form>
-                    <input type = "text" />
+                    <div className='grid'>
+                        <div></div>
+                        
+                        <div> <input type = "text" />
+                        </div>
+                        
+                        {/* Button Will be imported from General.css as all the button will be similiar */}
+                        <div>
+                        <button className='Button1'> Search </button>
+                        </div>
+                        
+                        <div></div>
 
-                    {/* Button Will be imported from General.css as all the button will be similiar */}
-                    <button className='Button1'/>
+                    </div>
                 </form>
             </div>
         </>
