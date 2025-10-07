@@ -15,7 +15,7 @@ function SearchBar(){
                         
                         {/* Button Will be imported from General.css as all the button will be similiar */}
                         <div>
-                        <button className='Button1'> Search </button>
+                        <button className='button'> Search </button>
                         </div>
                         
                         <div></div>

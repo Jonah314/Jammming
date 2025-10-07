@@ -5,7 +5,9 @@ function SearchResults(){
     return (
         <>  
             <div className='SearchResults Skin Curve'>
-                <h1> Search Results Area </h1>
+                <div className='header'>
+                    <h1>Search Results </h1>
+                </div>
             </div>
             
         </>

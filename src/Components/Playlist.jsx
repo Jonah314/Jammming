@@ -5,7 +5,27 @@ function Playlist(){
     return (
         <>
             <div className='Playlist Skin Curve'>
-                <h1>Make A Play List Area </h1>
+                <div className='header'>
+                    <h1>Play List </h1>
+                </div>
+
+
+                <form>
+                    <div className='input'>
+                        <label for='playlistTitle'> Play List Title</label>
+                        <input type='text' id="playlistTitle" />
+                        
+                    </div>
+                    
+                    <ul>
+                        <li> Some Text</li>
+                        <li> Some Text</li>
+                    </ul>
+                    
+                    <div className='center'>
+                        <button className='button'> Make Play List </button>
+                    </div>
+                </form>
             </div>
             
         </>
